@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf7fd;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.avatar-imagem {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 3px #bb99dd solid;
+}
+
+.insta {
+  color: #bb99dd;
+}
+
+.link {
+  border: 2px solid #bb99dd;
+  width: 25rem;
+  margin: 10px auto;
+  color: #bb99dd;
+}
+
+footer {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 42px;
+  height: 42px;
+  background-color: #bb99dd;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+}
